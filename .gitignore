@@ -1,0 +1,7 @@
+output/
+*.buildinfo
+*.changes
+
+# Ignore debs and tarballs in root, but track them in repo/deb/
+/*.deb
+/*.tar.gz
