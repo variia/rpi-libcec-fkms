@@ -1,0 +1,14 @@
+Origin: rpi-libcec-fkms
+Label: rpi-libcec-fkms
+Suite: bookworm
+Codename: bookworm
+Architectures: arm64
+Components: main
+Description: Patched libcec with RPi firmware CEC adapter for FKMS
+Date: Thu, 05 Mar 2026 07:21:57 +0000
+MD5Sum:
+ 8822e16c3e1dbee8dd0867c45b9f0f99     4263 main/binary-arm64/Packages
+ c8a5def315b6529485a4d1c32a38cc93     1488 main/binary-arm64/Packages.gz
+SHA256:
+ aceb233e2c92b55fd35660357facbf0e0cd84cd3369c2e382a821d4a86798e11     4263 main/binary-arm64/Packages
+ cd7f8efe36e3403e0eaf5b7d24e01774bdaa68d26d6b95f9e66205f6a0cc2fdf     1488 main/binary-arm64/Packages.gz

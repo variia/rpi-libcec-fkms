@@ -1,0 +1,110 @@
+Package: cec-utils
+Source: libcec
+Version: 6.0.2-5+rpt2
+Architecture: arm64
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Installed-Size: 148
+Depends: libcec6 (= 6.0.2-5+rpt2), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libp8-platform2 (>= 1.0.10), libstdc++6 (>= 5.2), libtinfo6 (>= 6)
+Filename: pool/main/cec-utils_6.0.2-5+rpt2_arm64.deb
+Size: 30084
+MD5sum: 74fc7fc820277360723298c9c649639f
+SHA1: a00c9ee663db641dec978f4130d2d372aa5cf27a
+SHA256: 31f8ab00bf2ffdcba0e73316139453c12e7a5cb095adfa4d8e7a5ea108fdddcd
+Section: utils
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: USB CEC Adaptor communication Library (utility programs)
+ This library provides support for the Pulse-Eight USB-CEC adapter and
+ other CEC capable hardware, like the Raspberry Pi.
+ .
+ This package provides the CEC utility programs.
+
+Package: libcec-dev
+Source: libcec
+Version: 6.0.2-5+rpt2
+Architecture: arm64
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Installed-Size: 142
+Depends: libcec6 (= 6.0.2-5+rpt2)
+Filename: pool/main/libcec-dev_6.0.2-5+rpt2_arm64.deb
+Size: 23452
+MD5sum: 3f9bae5c7938e2430dd49d8f2d270473
+SHA1: 241e94bc48c22987d361ad26fa8e5fce160ebe2b
+SHA256: 0b890360332e803cccf7b9e4af5c7c9ac81720ac39360a1f72fcf1e924ff550a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Description: USB CEC Adaptor communication Library (development files)
+ This library provides support for the Pulse-Eight USB-CEC adapter and
+ other CEC capable hardware, like the Raspberry Pi.
+ .
+ This package provides the necessary files needed for development.
+
+Package: libcec6
+Source: libcec
+Version: 6.0.2-5+rpt2
+Architecture: arm64
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Installed-Size: 787
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libp8-platform2 (>= 1.0.10), libraspberrypi0-compat, libstdc++6 (>= 11), libudev1 (>= 183), libx11-6, libxrandr2 (>= 2:1.2.99.2)
+Filename: pool/main/libcec6_6.0.2-5+rpt2_arm64.deb
+Size: 197888
+MD5sum: 2e449ab402ce9d0eaccbc47c0bd9f381
+SHA1: 7261a8d65fc2641b7540ca0f5b545e7a14ea431d
+SHA256: f5e10260636fa4cb41d787d9e3335d3b344207743fb4cbcc213cd6d1c26775aa
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://libcec.pulse-eight.com/
+Description: USB CEC Adaptor communication Library (shared library)
+ This library provides support for the Pulse-Eight USB-CEC adapter and
+ other CEC capable hardware, like the Raspberry Pi.
+ .
+ This package provides the shared library.
+
+Package: libraspberrypi0-compat
+Source: raspberrypi-userland
+Version: 1:2+git20231018~131943+3c97f76-1
+Architecture: arm64
+Maintainer: variia
+Installed-Size: 416
+Depends: libc6 (>= 2.34)
+Filename: pool/main/libraspberrypi0-compat_2+git20231018_arm64.deb
+Size: 56380
+MD5sum: 97886691b8e9b275399e46bd8a8ee7d8
+SHA1: 18d3e304eedd5b4e458372291d390c6cf775dd4b
+SHA256: a0ac8f98b15b832a06c4a6a61ef5cb4427055151f3e1748355f6167366a54b41
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/variia/rpi-libcec-fkms
+Description: Raspberry Pi VideoCore IV libraries (FKMS compatibility repackage)
+ Repackage of libraspberrypi0 that coexists with libdtovl0.
+ Contains VCHI runtime libraries (libbcm_host, libvcos, libvchiq_arm)
+ needed by libcec's Raspberry Pi CEC adapter when using the FKMS
+ display driver.
+ .
+ Original package: libraspberrypi0 from raspberrypi-userland.
+
+Package: python3-cec
+Source: libcec
+Version: 6.0.2-5+rpt2
+Architecture: arm64
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Installed-Size: 554
+Depends: libcec6 (= 6.0.2-5+rpt2), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libp8-platform2 (>= 1.0.10), libpython3.11 (>= 3.11.0), libstdc++6 (>= 11), python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Filename: pool/main/python3-cec_6.0.2-5+rpt2_arm64.deb
+Size: 102788
+MD5sum: bd934edc1ce1c05e79cfe6e3a2223736
+SHA1: 74d4849ce7e8e709a156e3ee6166195962864464
+SHA256: 4c3eb72665c65c5656cc6c6c86a9acbe648365cc88d998f589bd3e3d1036cee3
+Section: python
+Priority: optional
+Homepage: http://libcec.pulse-eight.com/
+Description: Python 3 bindings for USB CEC Adaptor
+ This library provides support for the Pulse-Eight USB-CEC adapter and
+ other CEC capable hardware, like the Raspberry Pi.
+ .
+ This package provides Python 3 bindings for libcec.
+
